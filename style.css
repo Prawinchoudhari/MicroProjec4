@@ -1,0 +1,158 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.container h1{
+    color: #7E7C89;
+    font-family: monospace;
+    font-weight: 200;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBox{
+    position: relative;
+}
+.inputBox span{
+    position: absolute;
+    top: 40px;
+    right: 16px;
+    color: #A4FFAF;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.passBox{
+    background-color: #24232B;
+    border: none;
+    outline:none;
+    padding: 10px;
+    width: 480px;
+    height:70px;
+    font-size: 25px;
+    margin-block: 18px;
+    color: white;
+}
+
+.row{
+    display: flex;
+    margin-block: 8px;
+    color: white;
+    padding-left: 15px;
+    flex-basis: 95%;
+    margin:10px;
+}
+.row p{
+    flex-basis: 95%;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.row input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px; 
+    margin-top: 7px;
+    accent-color:#A4FFAF;
+}
+.row label{
+    align-items: flex-end;
+    flex-basis: 95%;
+    font-size: 18px;
+    margin-top: 7px;
+    
+}
+
+#range{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:10px;
+}
+
+.Main{
+    display: flex;
+    background-color: #24232B;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    
+    margin-block: 10px;
+    overflow: hidden;
+}
+
+.range{
+    width:95%
+}
+
+.strengthbox{
+    border: none;
+    outline: none;
+    background-color: black;
+    padding: 12px;
+    color: #7e7c89;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 430px;
+    height: 50px;
+    margin: 25px;
+}
+
+.strenghbox button{
+    border: none;
+    background-color: black;
+    accent-color: BLACK;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 7px;
+  height: 24px;
+  border: 1px solid white;
+  margin-right: 9px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 2px;
+  left: 260px;
+  accent-color: #a4ffaf;
+}
+.genBtn{
+    border: none;
+    outline: none;
+    background-color:#A4FFAF;
+    padding: 12px;
+    color: #24232B;
+    width:430px;
+    height: 40px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.genBtn:hover{
+    background-color: #09f325;
+}
+
+
